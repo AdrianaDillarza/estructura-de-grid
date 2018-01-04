@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 7px;
+  margin: 10px;
+  background: blue;
+  height: 80px;
+}
+
+.col-1 {
+  width: 6.66%;
+  background-color: #FFFF00;
+}
+
+.col-2 {
+  width: 14.99%;
+  background-color: #AFFF00;
+}
+
+.col-3 {
+  width: 23.33%;
+  background-color: #1EE2A6;
+}
+
+.col-4 {
+  width: 31.6633333%;
+  background-color: #01B6AD;
+}
+
+.col-5 {
+  width: 48.33%;
+  background-color: #9C42D1;
+}
+
+.col-6 {
+  width: 98.33%;
+  background-color: #D126A9;
+}
+
+.col-7 {
+  width: 6.66%
+}
+
+.col-8 {
+  width: 6.66%
+}
+
+.col-9 {
+  width: 6.66%
+}
+
+.col-10 {
+  width: 6.66%
+}
+
+.col-11 {
+  width: 6.66%
+}
+
+.col-12 {
+  width: 6.66%
+}
